@@ -74,7 +74,7 @@ public class SqlTrackerTest {
             tracker.add(bug1);
             tracker.add(bug2);
             tracker.add(bug2);
-            assertThat(tracker.findAll().size(), Matchers.is(9));
+            assertThat(tracker.findAll().size(), Matchers.is(5));
         }
     }
 
